@@ -12,4 +12,11 @@ class QuoteViewModelImpl: QuoteViewModel {
     
     init() {
     }
+    
+    func reloadQuotes() {
+        service.getQuotes(onSuccess: {},
+            onError: { error in
+            
+        })
+    }
 }

@@ -9,4 +9,5 @@ import Foundation
 
 protocol QuoteViewModel {
     var service: QuoteService! { get set }
+    func reloadQuotes()
 }

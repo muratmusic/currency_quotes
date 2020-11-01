@@ -8,5 +8,8 @@
 import Foundation
 
 protocol QuoteService {
-    
+    func reload()
+
+    func getQuotes(onSuccess: @escaping () -> Void,
+        onError: @escaping (Error) -> Void)
 }

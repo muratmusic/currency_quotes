@@ -45,6 +45,7 @@ class AppDependency: DIFramework {
             .injection(\.service)
             .lifetime(.objectGraph)
         container.register(QuoteController.self)
+            .as(check: QuoteController.self) {$0}
             .injection(\.viewModel)
             .lifetime(.objectGraph)
     }
