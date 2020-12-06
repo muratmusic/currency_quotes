@@ -23,6 +23,8 @@
 		C87016FC254F01700052E24E /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87016FB254F01700052E24E /* URLSession+Extension.swift */; };
 		C8701700254F02480052E24E /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87016FF254F02480052E24E /* NetworkConfig.swift */; };
 		C8701704254F056E0052E24E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8701703254F056E0052E24E /* Errors.swift */; };
+		C8701707254F2EE50052E24E /* Quotes.JSON in Resources */ = {isa = PBXBuildFile; fileRef = C8701706254F2EE50052E24E /* Quotes.JSON */; };
+		C870170A254F30A60052E24E /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8701709254F30A60052E24E /* URL+Extension.swift */; };
 		E1E4D865B0CA05A78A378126 /* Pods_CurrencyQuotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181088961D7BC2FEAAC2E9F /* Pods_CurrencyQuotes.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		C87016FB254F01700052E24E /* URLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
 		C87016FF254F02480052E24E /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
 		C8701703254F056E0052E24E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		C8701706254F2EE50052E24E /* Quotes.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quotes.JSON; sourceTree = "<group>"; };
+		C8701709254F30A60052E24E /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 		E181088961D7BC2FEAAC2E9F /* Pods_CurrencyQuotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurrencyQuotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD03BFAC732EE3C851165CD8 /* Pods-CurrencyQuotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyQuotes.release.xcconfig"; path = "Target Support Files/Pods-CurrencyQuotes/Pods-CurrencyQuotes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +129,7 @@
 			children = (
 				C87016C3254E97C00052E24E /* LocalizationExtensions.swift */,
 				C87016FB254F01700052E24E /* URLSession+Extension.swift */,
+				C8701709254F30A60052E24E /* URL+Extension.swift */,
 				C8701703254F056E0052E24E /* Errors.swift */,
 			);
 			path = Extensions;
@@ -153,6 +158,7 @@
 			children = (
 				C87016F2254EA6FA0052E24E /* QuoteService.swift */,
 				C87016F5254EA73C0052E24E /* QuoteServiceImpl.swift */,
+				C8701706254F2EE50052E24E /* Quotes.JSON */,
 			);
 			path = "Data Layer";
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8701674254E8CDA0052E24E /* LaunchScreen.storyboard in Resources */,
+				C8701707254F2EE50052E24E /* Quotes.JSON in Resources */,
 				C870168D254E96D90052E24E /* Localizable.strings in Resources */,
 				C8701671254E8CD90052E24E /* Assets.xcassets in Resources */,
 				C870166F254E8CD60052E24E /* Main.storyboard in Resources */,
@@ -298,6 +305,7 @@
 				C87016E9254EA3210052E24E /* AppDependency.swift in Sources */,
 				C870166C254E8CD60052E24E /* QuoteController.swift in Sources */,
 				C87016F0254EA6A10052E24E /* QuoteViewModel.swift in Sources */,
+				C870170A254F30A60052E24E /* URL+Extension.swift in Sources */,
 				C87016FC254F01700052E24E /* URLSession+Extension.swift in Sources */,
 				C8701668254E8CD60052E24E /* AppDelegate.swift in Sources */,
 				C870166A254E8CD60052E24E /* SceneDelegate.swift in Sources */,

@@ -12,6 +12,13 @@ class QuoteServiceImpl: QuoteService {
         getQuotes(onSuccess: {}, onError: { _ in })
     }
 
+    /**
+    http://data.fixer.io/api/latest?access_key=0045562d9bb5b30b4a0b98d3d71adf81&format=1
+
+    ? access_key = YOUR_ACCESS_KEY
+    & base = GBP
+    & symbols = USD,AUD,CAD,PLN,MXN
+    */
     func getQuotes(onSuccess: @escaping () -> Void,
         onError: @escaping (Error) -> Void) {
         URLSession.shared.dataTask(with: Api.quotesURL) { result in
